@@ -1,49 +1,38 @@
-<!-- html = The html element represents the root of an HTML document..-->
 <!DOCTYPE html>
-<!-- Lang = Helps define the language of an element: the language that non-editable elements are in, or the language that editable elements should be written in by the user.-->
+
 <html lang="en-US">
-<!-- head = The head element represents a collection of metadata for the Document.-->
+
 <head>
   <meta charset="UTF-8">
-  <!-- Meta = Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.
-  Names = which defines the name of the application running in the web page.
-  content = This attribute contains the value for the http-equiv or name attribute, depending on which is used.
-  rel = This attribute names a relationship of the linked document to the current document.
-  link = The link element allows authors to link their document to other resources.
-  type = This attribute is used to define the type of the content linked to.
-  href = This attribute specifies the URL of the linked resource. A URL can be absolute or relative.-->
+  
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
-  <!--Title = The title element represents the document's title or name.-->
+
   <title>My Landing Page</title>
 </head>
-<!-- Body = The body element represents the content of the document.-->
+
 <body>
-  <!-- header = The header element represents introductory content for its nearest ancestor sectioning content or sectioning root element.-->
+  
   <header>
-    <!-- Nav = The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.
-    Class = A space-separated list of the classes of the element. Classes allows CSS and JavaScript to select and access specific elements via the class selectors or functions.
-    Ul = The ul element represents a list of items, where the order of the items is not important — that is, where changing the order would not materially change the meaning of the document.
-    Li = The li element represents a list item.
-    Nav = The nav element represents a section of a page that links to other pages or to parts within the page: a section with navigation links.-->
+   
     <nav class="text-right">
       <ul>
         <li> <a href="https://github.com/DavidHCCNguyen">Github</a></li>
-        <li> <a href="#">Portfolio</a></li>
-        <li> <a href="#contact">Contact</a></li>
+        <li> <a href="https://www.instagram.com/d1avi1d/?hl=en">Instagram</a></li>
+        <li> <a href="https://www.linkedin.com/in/david-nguyen-1a742023a/">Linkedin</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- Main = The main element represents the main content of the body of a document or application.
-  Figure = The figure element represents some flow content, optionally with a caption, that is self-contained
-  (like a complete sentence) and is typically referenced as a single unit from the main flow of the document.
-  Figcaption = The figcaption element represents a caption or legend for the rest of the contents of the figcaption element's parent figure element, if any.
-  H1 to H6 = H1 to H6 is for the text in question represent size-->
+
   <main>
-    <h1 class="text-center">My New Website</h1>
+    <h1 class="text-center">Main home base, informationable context to David Nguyen</h1>
     <figure>
       <img class="link" src="./images/David.jpg" alt="Graphic with Coming Soon text">
+      <img class="link" src="./images/David2.jpg" alt="Graphic with Coming Soon text">
+      <img class="link" src="./images/David3.jpg" alt="Graphic with Coming Soon text">
+      <img class="link" src="./images/David4.jpg" alt="Graphic with Coming Soon text">
+      <img class="link" src="./images/David5.jpg" alt="Graphic with Coming Soon text">
       <figcaption class="text-center">I am a Positive person who is Flexible with jobs. I understand that many tasks will be hard and or demanding,
         so I will do them without question (that is, if the job given is safe and someone showed me how to do it before hand)
         and I will Announce the problem with my fellow employees and work it out. With that: Trying out new activities seems exciting, so I am all for Hands-on direct to see the most of it.
@@ -52,21 +41,25 @@
     <section id="contact">
       <h2 class="text-center">Contact Me</h2>
       <form>
-        <ul>
-          <li>
-            <!-- Label = The label element represents a caption in a user interface.
-            Input = The input element represents a typed data field, usually with a form control to allow the user to edit the data.
-            ID = Defines a unique identifier (ID) which must be unique in the whole document.-->
-            <label class="text-right" for="name">Name:</label>
-            <input type="text" id="name" name="user-name">
-          </li>
-          <li>
-            <label class="text-right" for="email">Email:</label>
-            <input type="text" id="email" name="user-email">
-          </li>
-        </ul>
-        <div class="text-center">
-          <button type="submit">SEND</button>
+        <h1>to: David Nguyen [WIP]</h1>
+      
+        <div id="from">
+          <label for="name">from:</label>
+          <input type="text" id="name" name="user_name" />
+        </div>
+      
+        <div id="reply">
+          <label for="mail">reply:</label>
+          <input type="email" id="mail" name="user_email" />
+        </div>
+      
+        <div id="message">
+          <label for="msg">Your message:</label>
+          <textarea id="msg" name="user_message"></textarea>
+        </div>
+      
+        <div class="button">
+          <button type="submit">Send your message</button>
         </div>
       </form>
     </section>
