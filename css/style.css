@@ -72,6 +72,7 @@ img {
   width: 300px;
   border: black solid;
   box-shadow: 10px 5px 5px grey;
+  cursor: pointer;
 }
 
 img:active {
@@ -211,10 +212,134 @@ button:focus {
   border: 3px solid black;
   margin: 10px 10px 10px 10px;
   box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/Dev.png");
+  transition: transform .2s;
+}
+
+.small-box1 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  color: black;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/Flexbox.png");
+  transition: transform .2s;
+}
+
+.small-box2 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/Lipsum.jpg");
+ 
+  transition: transform .2s;
+}
+
+.small-box3 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  border: 3px solid black;
+  color: black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/scrimba.png");
+  transition: transform .2s;
+}
+
+.small-box4 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  color: black;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/Stackover.png");
+  transition: transform .2s;
+}
+
+.small-box5 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/Semantic.jpg");
+  transition: transform .2s;
+}
+
+.small-box6 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/David.jpg");
+  transition: transform .2s;
+}
+
+.small-box7 {
+  width: 350px;
+  height: 150px;
+  background-color: orange;
+  border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/David.jpg");
   transition: transform .2s;
 }
 
 .small-box:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box1:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box2:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box3:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box4:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box5:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box6:hover {
+  cursor: pointer;
+  background-color: orangered;
+  transform: scale(1.1);
+}
+
+.small-box7:hover {
   cursor: pointer;
   background-color: orangered;
   transform: scale(1.1);
