@@ -71,6 +71,16 @@ img {
   height: 400px;
   width: 300px;
   border: black solid;
+  box-shadow: 10px 5px 5px grey;
+}
+
+img:active {
+  display: inline-block;
+  margin: 20px auto;
+  height: 750px;
+  width: 575px;
+  border: black solid;
+  box-shadow: 10px 5px 5px grey;
 }
 
 #contact {
@@ -88,6 +98,9 @@ form {
   border: 5px solid #DDAF94;
   border-radius: 20px;
   font: bold;
+  flex-wrap: wrap;
+  justify-content: center;
+  display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
@@ -173,11 +186,15 @@ button:focus {
   height: 400px;
   background-color: orange;
   border: 3px solid black;
+  margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  transition: transform .2s;
 }
 
 .big-box:hover {
   cursor: pointer;
   background-color: orangered;
+  transform: scale(1.1);
 }
 
 .small-box-g {
@@ -193,9 +210,12 @@ button:focus {
   background-color: orange;
   border: 3px solid black;
   margin: 10px 10px 10px 10px;
+  box-shadow: 10px 5px 5px grey;
+  transition: transform .2s;
 }
 
 .small-box:hover {
   cursor: pointer;
   background-color: orangered;
+  transform: scale(1.1);
 }
