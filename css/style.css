@@ -184,11 +184,12 @@ button:focus {
 
 .big-box {
   width: 1477px;
-  height: 400px;
+  height: 600px;
   background-color: orange;
   border: 3px solid black;
   margin: 10px 10px 10px 10px;
   box-shadow: 10px 5px 5px grey;
+  background-image: url("../images/Castle.png");
   transition: transform .2s;
 }
 
@@ -281,8 +282,9 @@ button:focus {
   background-color: orange;
   border: 3px solid black;
   margin: 10px 10px 10px 10px;
+  color: black;
   box-shadow: 10px 5px 5px grey;
-  background-image: url("../images/David.jpg");
+  background-image: url("../images/Figma.png");
   transition: transform .2s;
 }
 
@@ -293,54 +295,20 @@ button:focus {
   border: 3px solid black;
   margin: 10px 10px 10px 10px;
   box-shadow: 10px 5px 5px grey;
-  background-image: url("../images/David.jpg");
+  background-image: url("../images/Mdn.png");
   transition: transform .2s;
 }
 
-.small-box:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
-.small-box1:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
-.small-box2:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
-.small-box3:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
-.small-box4:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
-.small-box5:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
-.small-box6:hover {
-  cursor: pointer;
-  background-color: orangered;
-  transform: scale(1.1);
-}
-
+.small-box:hover,
+.small-box1:hover,
+.small-box2:hover,
+.small-box3:hover,
+.small-box4:hover,
+.small-box5:hover,
+.small-box6:hover,
 .small-box7:hover {
   cursor: pointer;
   background-color: orangered;
   transform: scale(1.1);
 }
+
