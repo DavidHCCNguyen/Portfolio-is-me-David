@@ -241,7 +241,8 @@ button:focus {
   transition: transform .2s;
 }
 
-.small-box3 {
+.small-box3,
+.small-box8 {
   width: 350px;
   height: 150px;
   background-color: orange;
