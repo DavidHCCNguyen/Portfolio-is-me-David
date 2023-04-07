@@ -2,7 +2,6 @@
 * {
   margin:0;
   padding:0;
-  overflow-x: hidden
 }
 
 @font-face {
@@ -307,9 +306,9 @@ button:focus {
 .small-box4:hover,
 .small-box5:hover,
 .small-box6:hover,
-.small-box7:hover {
+.small-box7:hover,
+.small-box8:hover {
   cursor: pointer;
   background-color: orangered;
   transform: scale(1.1);
 }
-
