@@ -32,7 +32,7 @@ To run this project locally, follow these steps:
 2. Open the index.html file in your preferred web browser.
 3. Explore and customize the code to fit your needs.
 
-## How I Will Continue to Update It
+## How I add or update It
 
 I am committed to keeping my portfolio up to date with my latest projects and skills. Here's how I plan to continue updating it:
 
