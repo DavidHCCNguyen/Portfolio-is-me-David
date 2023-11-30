@@ -22,7 +22,7 @@ This repository contains the source code for my personal portfolio website. The 
 
 ## Usage
 
-Feel free to explore the website to learn more about me and my work. You can visit the live version [here](#your-live-portfolio-url).
+Feel free to explore the website to learn more about me and my work. You can visit the live version [here](https://davidhccnguyen.github.io/UOAWDC02-HTML-CSS-Portfolio/).
 
 ## Development
 
